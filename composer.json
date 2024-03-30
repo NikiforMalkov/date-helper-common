@@ -1,0 +1,21 @@
+{
+  "name": "dizi/date-helper-common",
+  "type": "library",
+  "license": "MIT",
+  "autoload": {
+    "psr-4": {
+      "Dizi\\DateHelperCommon\\": "src/"
+    }
+  },
+  "authors": [
+    {
+      "name": "Malkov Nikifor",
+      "email": "nikiformalkov@gmail.com"
+    }
+  ],
+  "minimum-stability": "stable",
+  "require": {
+    "illuminate/support": "^8.0.0",
+    "php-amqplib/php-amqplib": "^3.6"
+  }
+}
