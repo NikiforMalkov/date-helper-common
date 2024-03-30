@@ -10,7 +10,7 @@ class ExampleCreatedEvent extends Event
 {
     public string $type = Events::EXAMPLE_CREATED;
 
-    public function __construct(public OrderData $data)
+    public function __construct(public ExampleData $data)
     {
     }
 }
