@@ -1,6 +1,6 @@
 <?php
 
-namespace Dizi\DateHelperCommon\Events\Order;
+namespace Dizi\DateHelperCommon\Events\Example;
 
 use Dizi\DateHelperCommon\DTO\Example\ExampleData;
 use Dizi\DateHelperCommon\Enums\Events;
