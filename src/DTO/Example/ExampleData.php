@@ -5,8 +5,8 @@ namespace Dizi\DateHelperCommon\DTO\Example;
 class ExampleData
 {
     public function __construct(
-        public readonly int $name,
-        public readonly float $description,
+        public readonly string $name,
+        public readonly string $description,
     ) {}
 
     /**
