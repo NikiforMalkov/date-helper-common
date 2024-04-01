@@ -31,6 +31,11 @@ abstract class RedisService implements QueueServiceInterface
         return $this->parseEvents($allEvents);
     }
 
+    public function consumeEvent()
+    {
+        //TODO: implement
+    }
+
     private function getLastProcessedEventId(): string
     {
         $lastId = Redis::lindex(
